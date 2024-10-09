@@ -1,0 +1,59 @@
+.clock {
+  border: 1px solid #ced4da; /* Borde alrededor de la aplicación */
+  border-radius: 0.5rem; /* Esquinas redondeadas */
+  padding: 20px;
+  background-color: white; /* Fondo blanco para el contenido */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+  max-width: 600px; /* Ancho máximo para la aplicación */
+  margin: auto; /* Centramos la aplicación horizontalmente */
+}
+
+h1 {
+  font-size: 2rem; /* Tamaño del título */
+  color: #010c19;
+}
+
+.setters {
+  display: flex; /* Flexbox para disposición horizontal */
+  justify-content: space-around; /* Espaciado igual entre elementos */
+  align-items: center; /* Centramos verticalmente */
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.break, .session {
+  flex: 1; /* Cada sección toma el mismo espacio */
+  text-align: center; /* Centramos el texto en cada sección */
+}
+
+.break h4, .session h4 {
+  margin-bottom: 25px; /* Espaciado entre el título y el control */
+}
+
+.display {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #0765ca; /* Borde azul */
+  border-radius: 10px; /* Esquinas redondeadas */
+  background-color: #e9ecef; /* Fondo gris claro */
+}
+
+#time-left {
+  font-size: 3rem; /* Tamaño grande para el tiempo */
+  font-weight: bold; /* Negrita */
+}
+
+button {
+  margin: 5px; /* Espaciado entre botones */
+  font-size: 1.5rem; /* Tamaño de fuente de los botones */
+  padding: 10px 15px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Esquinas redondeadas en botones */
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color del texto en blanco */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color de fondo más oscuro al pasar el ratón */
+}
